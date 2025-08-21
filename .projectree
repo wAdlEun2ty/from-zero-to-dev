@@ -201,6 +201,18 @@
 │       │       └── README.md
 │       └── README.md
 ├── README.md
-└── _sidebar.md
+├── resources
+│   ├── img
+│   │   ├── demo
+│   │   ├── favicon
+│   │   │   └── favicon.svg
+│   │   └── screenshot
+│   └── lib
+│       ├── css
+│       │   └── custom.theme.min.css
+│       └── js
+│           └── custom.fx.min.js
+├── _sidebar.md
+└── utils
 
-106 directories, 98 files
+115 directories, 101 files
