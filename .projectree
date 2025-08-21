@@ -201,7 +201,291 @@
 │   │   │       └── README.md
 │   │   └── README.md
 │   ├── python
+│   │   ├── #1
+│   │   │   ├── alternate-implementations
+│   │   │   │   └── README.md
+│   │   │   └── notation
+│   │   │       └── README.md
+│   │   ├── #10
+│   │   │   └── full-grammar-specification
+│   │   │       └── README.md
+│   │   ├── #2
+│   │   │   ├── delimiters
+│   │   │   │   └── README.md
+│   │   │   ├── identifiers-and-keywords
+│   │   │   │   └── README.md
+│   │   │   ├── line-structure
+│   │   │   │   └── README.md
+│   │   │   ├── literals
+│   │   │   │   └── README.md
+│   │   │   ├── operators
+│   │   │   │   └── README.md
+│   │   │   └── other-tokens
+│   │   │       └── README.md
+│   │   ├── #3
+│   │   │   ├── coroutines
+│   │   │   │   └── README.md
+│   │   │   ├── objects-values-and-types
+│   │   │   │   └── README.md
+│   │   │   ├── special-method-names
+│   │   │   │   └── README.md
+│   │   │   └── the-standard-type-hierarchy
+│   │   │       └── README.md
+│   │   ├── #4
+│   │   │   ├── exceptions
+│   │   │   │   └── README.md
+│   │   │   ├── naming-and-binding
+│   │   │   │   └── README.md
+│   │   │   └── structure-of-a-program
+│   │   │       └── README.md
+│   │   ├── #5
+│   │   │   ├── importlib
+│   │   │   │   └── README.md
+│   │   │   ├── loading
+│   │   │   │   └── README.md
+│   │   │   ├── package-relative-imports
+│   │   │   │   └── README.md
+│   │   │   ├── packages
+│   │   │   │   └── README.md
+│   │   │   ├── references
+│   │   │   │   └── README.md
+│   │   │   ├── replacing-the-standard-import-system
+│   │   │   │   └── README.md
+│   │   │   ├── searching
+│   │   │   │   └── README.md
+│   │   │   ├── special-considerations-for-main
+│   │   │   │   └── README.md
+│   │   │   └── the-path-based-finder
+│   │   │       └── README.md
+│   │   ├── #6
+│   │   │   ├── arithmetic-conversions
+│   │   │   │   └── README.md
+│   │   │   ├── assignment-expressions
+│   │   │   │   └── README.md
+│   │   │   ├── atoms
+│   │   │   │   └── README.md
+│   │   │   ├── await-expression
+│   │   │   │   └── README.md
+│   │   │   ├── binary-arithmetic-operations
+│   │   │   │   └── README.md
+│   │   │   ├── binary-bitwise-operations
+│   │   │   │   └── README.md
+│   │   │   ├── boolean-operations
+│   │   │   │   └── README.md
+│   │   │   ├── comparisons
+│   │   │   │   └── README.md
+│   │   │   ├── conditional-expressions
+│   │   │   │   └── README.md
+│   │   │   ├── evaluation-order
+│   │   │   │   └── README.md
+│   │   │   ├── expression-lists
+│   │   │   │   └── README.md
+│   │   │   ├── lambdas
+│   │   │   │   └── README.md
+│   │   │   ├── operator-precedence
+│   │   │   │   └── README.md
+│   │   │   ├── primaries
+│   │   │   │   └── README.md
+│   │   │   ├── shifting-operations
+│   │   │   │   └── README.md
+│   │   │   ├── the-power-operator
+│   │   │   │   └── README.md
+│   │   │   └── unary-arithmetic-and-bitwise-operations
+│   │   │       └── README.md
+│   │   ├── #7
+│   │   │   ├── assignment-statements
+│   │   │   │   └── README.md
+│   │   │   ├── expression-statements
+│   │   │   │   └── README.md
+│   │   │   ├── the-assert-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-break-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-continue-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-del-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-global-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-import-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-nonlocal-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-pass-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-raise-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-return-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-type-statement
+│   │   │   │   └── README.md
+│   │   │   └── the-yield-statement
+│   │   │       └── README.md
+│   │   ├── #8
+│   │   │   ├── class-definitions
+│   │   │   │   └── README.md
+│   │   │   ├── coroutines
+│   │   │   │   └── README.md
+│   │   │   ├── function-definitions
+│   │   │   │   └── README.md
+│   │   │   ├── the-for-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-if-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-match-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-try-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-while-statement
+│   │   │   │   └── README.md
+│   │   │   ├── the-with-statement
+│   │   │   │   └── README.md
+│   │   │   └── type-parameter-lists
+│   │   │       └── README.md
+│   │   └── #9
+│   │       ├── complete-python-programs
+│   │       │   └── README.md
+│   │       ├── expression-input
+│   │       │   └── README.md
+│   │       ├── file-input
+│   │       │   └── README.md
+│   │       └── interactive-input
+│   │           └── README.md
 │   └── typescript
+│       ├── #1
+│       │   ├── compiler-cli
+│       │   │   └── README.md
+│       │   ├── getting-started
+│       │   │   └── README.md
+│       │   ├── tsconfig-basics
+│       │   │   └── README.md
+│       │   └── ts-vs-js
+│       │       └── README.md
+│       ├── #10
+│       │   ├── compiler-flags
+│       │   │   └── README.md
+│       │   ├── incremental-compilation
+│       │   │   └── README.md
+│       │   ├── module-targets
+│       │   │   └── README.md
+│       │   ├── strict-mode
+│       │   │   └── README.md
+│       │   └── tsconfig-structure
+│       │       └── README.md
+│       ├── #11
+│       │   ├── bundlers-vite
+│       │   │   └── README.md
+│       │   ├── bundlers-webpack
+│       │   │   └── README.md
+│       │   ├── linting-eslint
+│       │   │   └── README.md
+│       │   ├── prettier-formatting
+│       │   │   └── README.md
+│       │   └── testing-jest
+│       │       └── README.md
+│       ├── #12
+│       │   ├── ast-manipulation
+│       │   │   └── README.md
+│       │   ├── building-ts-plugins
+│       │   │   └── README.md
+│       │   ├── compiler-api-overview
+│       │   │   └── README.md
+│       │   ├── custom-transformers
+│       │   │   └── README.md
+│       │   └── language-service
+│       │       └── README.md
+│       ├── #2
+│       │   ├── any-unknown-never
+│       │   │   └── README.md
+│       │   ├── arrays-and-tuples
+│       │   │   └── README.md
+│       │   ├── enums
+│       │   │   └── README.md
+│       │   ├── primitive-types
+│       │   │   └── README.md
+│       │   └── type-assertions
+│       │       └── README.md
+│       ├── #3
+│       │   ├── function-declarations
+│       │   │   └── README.md
+│       │   ├── function-types
+│       │   │   └── README.md
+│       │   ├── optional-default-rest
+│       │   │   └── README.md
+│       │   └── overloads
+│       │       └── README.md
+│       ├── #4
+│       │   ├── index-signatures
+│       │   │   └── README.md
+│       │   ├── interfaces
+│       │   │   └── README.md
+│       │   ├── intersection-vs-union
+│       │   │   └── README.md
+│       │   ├── readonly-vs-const
+│       │   │   └── README.md
+│       │   └── type-aliases
+│       │       └── README.md
+│       ├── #5
+│       │   ├── abstract-classes
+│       │   │   └── README.md
+│       │   ├── access-modifiers
+│       │   │   └── README.md
+│       │   ├── class-basics
+│       │   │   └── README.md
+│       │   ├── decorators
+│       │   │   └── README.md
+│       │   ├── implements-interface
+│       │   │   └── README.md
+│       │   └── inheritance
+│       │       └── README.md
+│       ├── #6
+│       │   ├── default-type-parameters
+│       │   │   └── README.md
+│       │   ├── generic-constraints
+│       │   │   └── README.md
+│       │   ├── generics-basics
+│       │   │   └── README.md
+│       │   ├── generics-with-classes
+│       │   │   └── README.md
+│       │   ├── generics-with-functions
+│       │   │   └── README.md
+│       │   └── mapped-types
+│       │       └── README.md
+│       ├── #7
+│       │   ├── conditional-types
+│       │   │   └── README.md
+│       │   ├── discriminated-unions
+│       │   │   └── README.md
+│       │   ├── infer-keyword
+│       │   │   └── README.md
+│       │   ├── keyof-operator
+│       │   │   └── README.md
+│       │   ├── template-literal-types
+│       │   │   └── README.md
+│       │   ├── typeof-operator
+│       │   │   └── README.md
+│       │   └── utility-types
+│       │       └── README.md
+│       ├── #8
+│       │   ├── ambient-modules
+│       │   │   └── README.md
+│       │   ├── commonjs-require
+│       │   │   └── README.md
+│       │   ├── module-resolution
+│       │   │   └── README.md
+│       │   ├── modules-esm
+│       │   │   └── README.md
+│       │   └── namespace-vs-module
+│       │       └── README.md
+│       └── #9
+│           ├── async-await
+│           │   └── README.md
+│           ├── async-iterators
+│           │   └── README.md
+│           ├── iterators-generators
+│           │   └── README.md
+│           └── promises
+│               └── README.md
 ├── PRIVACY_POLICY.md
 ├── README.md
 ├── resources
@@ -221,4 +505,4 @@
 ├── todo.md
 └── utils
 
-117 directories, 105 files
+270 directories, 236 files
