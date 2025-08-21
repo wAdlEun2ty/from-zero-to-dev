@@ -1,0 +1,206 @@
+.
+├── a.txt
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── faq.md
+├── guide.md
+├── index.html
+├── install.md
+├── intro.md
+├── LICENSE
+├── _navbar.md
+├── pages
+│   └── js
+│       ├── #1
+│       │   ├── ecmascript
+│       │   │   └── README.md
+│       │   ├── javascript-itu-apa-sih
+│       │   │   └── README.md
+│       │   ├── javascript-vs-java-beda-ya
+│       │   │   └── README.md
+│       │   ├── selanjutnya-belajar-apa
+│       │   │   └── README.md
+│       │   ├── tentang-panduan-ini
+│       │   │   └── README.md
+│       │   └── tools-yang-perlu-disiapin
+│       │       └── README.md
+│       ├── #10
+│       │   └── array-typed-arrays
+│       │       └── README.md
+│       ├── #11
+│       │   ├── map
+│       │   │   └── README.md
+│       │   ├── set
+│       │   │   └── README.md
+│       │   ├── weakmap
+│       │   │   └── README.md
+│       │   └── weakset
+│       │       └── README.md
+│       ├── #12
+│       │   ├── cara-bikin-object
+│       │   │   └── README.md
+│       │   ├── definisi-method
+│       │   │   └── README.md
+│       │   ├── getter-setter
+│       │   │   └── README.md
+│       │   └── object-properti
+│       │       └── README.md
+│       ├── #13
+│       │   ├── deklarasi-class
+│       │   │   └── README.md
+│       │   ├── extends-inheritance
+│       │   │   └── README.md
+│       │   ├── fitur-fitur-class
+│       │   │   └── README.md
+│       │   └── konstruktor
+│       │       └── README.md
+│       ├── #14
+│       │   ├── chaining
+│       │   │   └── README.md
+│       │   ├── composition
+│       │   │   └── README.md
+│       │   ├── error-handling
+│       │   │   └── README.md
+│       │   ├── jaminan-execution
+│       │   │   └── README.md
+│       │   └── timing
+│       │       └── README.md
+│       ├── #15
+│       │   └── typed-arrays
+│       │       └── README.md
+│       ├── #16
+│       │   ├── generators
+│       │   │   └── README.md
+│       │   ├── iterables
+│       │   │   └── README.md
+│       │   └── iterators
+│       │       └── README.md
+│       ├── #17
+│       │   ├── collation
+│       │   │   └── README.md
+│       │   ├── format-angka
+│       │   │   └── README.md
+│       │   └── format-tanggal-waktu
+│       │       └── README.md
+│       ├── #18
+│       │   ├── aggregating-modules
+│       │   │   └── README.md
+│       │   ├── default-exports
+│       │   │   └── README.md
+│       │   ├── dynamic-module-loading
+│       │   │   └── README.md
+│       │   ├── exporting
+│       │   │   └── README.md
+│       │   ├── importing
+│       │   │   └── README.md
+│       │   └── renaming-features
+│       │       └── README.md
+│       ├── #19
+│       │   ├── closures
+│       │   │   └── README.md
+│       │   ├── enumerability-ownership-properti
+│       │   │   └── README.md
+│       │   ├── gambaran-lengkap-bahasa
+│       │   │   └── README.md
+│       │   ├── inheritance-prototype-chain
+│       │   │   └── README.md
+│       │   ├── memory-management
+│       │   │   └── README.md
+│       │   ├── meta-programming
+│       │   │   └── README.md
+│       │   ├── perbandingan-equality
+│       │   │   └── README.md
+│       │   └── struktur-data
+│       │       └── README.md
+│       ├── #2
+│       │   ├── cara-deklarasi-variabel
+│       │   │   └── README.md
+│       │   ├── hoisting-fenomena-diangkat
+│       │   │   └── README.md
+│       │   ├── lingkup-variabel-scope
+│       │   │   └── README.md
+│       │   ├── literal
+│       │   │   └── README.md
+│       │   ├── sintaks-dasar-cara-kasih-komentar
+│       │   │   └── README.md
+│       │   └── struktur-tipe-data
+│       │       └── README.md
+│       ├── #3
+│       │   ├── if-else
+│       │   │   └── README.md
+│       │   ├── switch
+│       │   │   └── README.md
+│       │   ├── tipe-tipe-error-object
+│       │   │   └── README.md
+│       │   └── try-catch-throw
+│       │       └── README.md
+│       ├── #4
+│       │   ├── break-berhenti-paksa
+│       │   │   └── README.md
+│       │   ├── continue-lanjut-paksa
+│       │   │   └── README.md
+│       │   ├── do-while-loop
+│       │   │   └── README.md
+│       │   ├── for-in-loop
+│       │   │   └── README.md
+│       │   ├── for-loop
+│       │   │   └── README.md
+│       │   ├── for-of-loop
+│       │   │   └── README.md
+│       │   └── while-loop
+│       │       └── README.md
+│       ├── #5
+│       │   ├── argument-parameter
+│       │   │   └── README.md
+│       │   ├── arrow-function
+│       │   │   └── README.md
+│       │   ├── cara-bikin-fungsi
+│       │   │   └── README.md
+│       │   ├── cara-panggil-fungsi
+│       │   │   └── README.md
+│       │   └── scope-closure
+│       │       └── README.md
+│       ├── #6
+│       │   ├── assignment-perbandingan
+│       │   │   └── README.md
+│       │   ├── operator-aritmatika
+│       │   │   └── README.md
+│       │   ├── operator-bitwise-logical
+│       │   │   └── README.md
+│       │   └── operator-ternary
+│       │       └── README.md
+│       ├── #7
+│       │   ├── math-object
+│       │   │   └── README.md
+│       │   ├── number-object
+│       │   │   └── README.md
+│       │   ├── numbers
+│       │   │   └── README.md
+│       │   ├── string-object
+│       │   │   └── README.md
+│       │   ├── strings
+│       │   │   └── README.md
+│       │   └── template-literals
+│       │       └── README.md
+│       ├── #8
+│       │   └── date-object
+│       │       └── README.md
+│       ├── #9
+│       │   ├── assertions
+│       │   │   └── README.md
+│       │   ├── cara-bikin-regex
+│       │   │   └── README.md
+│       │   ├── character-classes
+│       │   │   └── README.md
+│       │   ├── groups-backreferences
+│       │   │   └── README.md
+│       │   ├── pola-regex
+│       │   │   └── README.md
+│       │   └── quantifiers
+│       │       └── README.md
+│       └── README.md
+├── README.md
+└── _sidebar.md
+
+106 directories, 98 files
