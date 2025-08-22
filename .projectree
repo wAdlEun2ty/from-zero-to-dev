@@ -1,8 +1,1113 @@
 .
+├── 404.md
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── faq.md
+├── from-zero-to-dev.wiki
+│   ├── config.json
+│   ├── CONTRIBUTING.md
+│   ├── faq.md
+│   ├── GOVERNANCE.md
+│   ├── guide.md
+│   ├── Home.md
+│   ├── Homepage.md
+│   ├── install.md
+│   ├── intro.md
+│   ├── LICENSE
+│   ├── pages
+│   │   ├── git
+│   │   │   ├── _10-best-practices
+│   │   │   │   ├── best-practices
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── cheatsheet
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── common-mistakes
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _1-dasar
+│   │   │   │   ├── apa-itu-git
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── instalasi
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── konfigurasi
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── konsep-versi-control
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _2-repository
+│   │   │   │   ├── git-add-commit
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── gitignore
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── git-init-clone
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── git-status-log
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _3-branching
+│   │   │   │   ├── conflict
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── fast-forward
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── membuat-branch
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── merge
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── rebase
+│   │   │   │       └── README.md
+│   │   │   ├── _4-remote
+│   │   │   │   ├── menambah-remote
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── push-pull-fetch
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── submodule
+│   │   │   │   │   └── README.md
+│   │   │   │   └── upstream-tracking
+│   │   │   │       └── README.md
+│   │   │   ├── _5-undo
+│   │   │   │   ├── git-checkout
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── git-reset
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── git-revert
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── git-stash
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _6-advanced
+│   │   │   │   ├── bisect
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── cherry-pick
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── hooks
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── reflog
+│   │   │   │   │   └── README.md
+│   │   │   │   └── tagging
+│   │   │   │       └── README.md
+│   │   │   ├── _7-tools
+│   │   │   │   ├── gitattributes
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── performance
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── sparse-checkout
+│   │   │   │   │   └── README.md
+│   │   │   │   └── worktrees
+│   │   │   │       └── README.md
+│   │   │   ├── _8-workflow
+│   │   │   │   ├── code-review
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── feature-branch
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── gitflow
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── trunk-based
+│   │   │   │       └── README.md
+│   │   │   ├── _9-integrasi
+│   │   │   │   ├── ci-cd
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── github
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── gitlab
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── secrets
+│   │   │   │       └── README.md
+│   │   │   └── README.md
+│   │   ├── go
+│   │   │   ├── _10-database
+│   │   │   │   ├── caching-redis
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── migration
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── orm-gorm
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── sql-database
+│   │   │   │       └── README.md
+│   │   │   ├── _11-advanced
+│   │   │   │   ├── generics
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── plugin
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── reflection
+│   │   │   │   │   └── README.md
+│   │   │   │   └── unsafe
+│   │   │   │       └── README.md
+│   │   │   ├── _12-best-practices
+│   │   │   │   ├── cheatsheet
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── clean-architecture
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── error-handling-best
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── microservices
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── project-structure
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _1-dasar
+│   │   │   │   ├── apa-itu-go
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── go-tooling
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── hello-world
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── instalasi
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _2-struktur-data
+│   │   │   │   ├── array-slice-map
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── struct-interface
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── tipe-data-primitif
+│   │   │   │   │   └── README.md
+│   │   │   │   └── variabel-konstanta
+│   │   │   │       └── README.md
+│   │   │   ├── _3-fungsi-error
+│   │   │   │   ├── error-handling
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── fungsi
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── multiple-return
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── panic-recover
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _4-struktur-program
+│   │   │   │   ├── control-flow
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── dependency-management
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── oop-style
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── package-module
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _5-concurrency
+│   │   │   │   ├── channel
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── context
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── goroutine
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── mutex-wg
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── select
+│   │   │   │       └── README.md
+│   │   │   ├── _6-stdlib
+│   │   │   │   ├── encoding-json-xml
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── fmt-log
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── math-rand
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── net-http
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── os-io-bufio
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── time
+│   │   │   │       └── README.md
+│   │   │   ├── _7-testing
+│   │   │   │   ├── benchmark
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── mocking
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── table-test
+│   │   │   │   │   └── README.md
+│   │   │   │   └── unit-test
+│   │   │   │       └── README.md
+│   │   │   ├── _8-io-os
+│   │   │   │   ├── cli-flag
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── file-read-write
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── filesystem
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _9-networking-web
+│   │   │   │   ├── grpc
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── http-server
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── rest-api
+│   │   │   │   │   └── README.md
+│   │   │   │   └── websocket
+│   │   │   │       └── README.md
+│   │   │   └── README.md
+│   │   ├── js
+│   │   │   ├── _1
+│   │   │   │   ├── ecmascript
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── javascript-itu-apa-sih
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── javascript-vs-java-beda-ya
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── selanjutnya-belajar-apa
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── tentang-panduan-ini
+│   │   │   │   │   └── README.md
+│   │   │   │   └── tools-yang-perlu-disiapin
+│   │   │   │       └── README.md
+│   │   │   ├── _10
+│   │   │   │   ├── array-typed-arrays
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _11
+│   │   │   │   ├── map
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── set
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── weakmap
+│   │   │   │   │   └── README.md
+│   │   │   │   └── weakset
+│   │   │   │       └── README.md
+│   │   │   ├── _12
+│   │   │   │   ├── cara-bikin-object
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── definisi-method
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── getter-setter
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── object-properti
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _13
+│   │   │   │   ├── deklarasi-class
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── extends-inheritance
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── fitur-fitur-class
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── konstruktor
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _14
+│   │   │   │   ├── chaining
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── composition
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── error-handling
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── jaminan-execution
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── timing
+│   │   │   │       └── README.md
+│   │   │   ├── _15
+│   │   │   │   ├── README.md
+│   │   │   │   └── typed-arrays
+│   │   │   │       └── README.md
+│   │   │   ├── _16
+│   │   │   │   ├── generators
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── iterables
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── iterators
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _17
+│   │   │   │   ├── collation
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── format-angka
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── format-tanggal-waktu
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _18
+│   │   │   │   ├── aggregating-modules
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── default-exports
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── dynamic-module-loading
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── exporting
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── importing
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── renaming-features
+│   │   │   │       └── README.md
+│   │   │   ├── _19
+│   │   │   │   ├── closures
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── enumerability-ownership-properti
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── gambaran-lengkap-bahasa
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── inheritance-prototype-chain
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── memory-management
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── meta-programming
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── perbandingan-equality
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── struktur-data
+│   │   │   │       └── README.md
+│   │   │   ├── _2
+│   │   │   │   ├── cara-deklarasi-variabel
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── hoisting-fenomena-diangkat
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── lingkup-variabel-scope
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── literal
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── sintaks-dasar-cara-kasih-komentar
+│   │   │   │   │   └── README.md
+│   │   │   │   └── struktur-tipe-data
+│   │   │   │       └── README.md
+│   │   │   ├── _3
+│   │   │   │   ├── if-else
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── switch
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── tipe-tipe-error-object
+│   │   │   │   │   └── README.md
+│   │   │   │   └── try-catch-throw
+│   │   │   │       └── README.md
+│   │   │   ├── _4
+│   │   │   │   ├── break-berhenti-paksa
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── continue-lanjut-paksa
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── do-while-loop
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── for-in-loop
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── for-loop
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── for-of-loop
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── while-loop
+│   │   │   │       └── README.md
+│   │   │   ├── _5
+│   │   │   │   ├── argument-parameter
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── arrow-function
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── cara-bikin-fungsi
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── cara-panggil-fungsi
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── scope-closure
+│   │   │   │       └── README.md
+│   │   │   ├── _6
+│   │   │   │   ├── assignment-perbandingan
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── operator-aritmatika
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── operator-bitwise-logical
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── operator-ternary
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _7
+│   │   │   │   ├── math-object
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── number-object
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── numbers
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── string-object
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── strings
+│   │   │   │   │   └── README.md
+│   │   │   │   └── template-literals
+│   │   │   │       └── README.md
+│   │   │   ├── _8
+│   │   │   │   ├── date-object
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _9
+│   │   │   │   ├── assertions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── cara-bikin-regex
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── character-classes
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── groups-backreferences
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── pola-regex
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── quantifiers
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── README.md
+│   │   │   └── reference
+│   │   │       └── README.md
+│   │   ├── python
+│   │   │   ├── _1
+│   │   │   │   ├── alternate-implementations
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── notation
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _10
+│   │   │   │   ├── full-grammar-specification
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _2
+│   │   │   │   ├── delimiters
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── identifiers-and-keywords
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── line-structure
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── literals
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── operators
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── other-tokens
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   ├── _3
+│   │   │   │   ├── coroutines
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── objects-values-and-types
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── special-method-names
+│   │   │   │   │   └── README.md
+│   │   │   │   └── the-standard-type-hierarchy
+│   │   │   │       └── README.md
+│   │   │   ├── _4
+│   │   │   │   ├── exceptions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── naming-and-binding
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   └── structure-of-a-program
+│   │   │   │       └── README.md
+│   │   │   ├── _5
+│   │   │   │   ├── importlib
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── loading
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── package-relative-imports
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── packages
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── references
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── replacing-the-standard-import-system
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── searching
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── special-considerations-for-main
+│   │   │   │   │   └── README.md
+│   │   │   │   └── the-path-based-finder
+│   │   │   │       └── README.md
+│   │   │   ├── _6
+│   │   │   │   ├── arithmetic-conversions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── assignment-expressions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── atoms
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── await-expression
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── binary-arithmetic-operations
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── binary-bitwise-operations
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── boolean-operations
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── comparisons
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── conditional-expressions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── evaluation-order
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── expression-lists
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── lambdas
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── operator-precedence
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── primaries
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── shifting-operations
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-power-operator
+│   │   │   │   │   └── README.md
+│   │   │   │   └── unary-arithmetic-and-bitwise-operations
+│   │   │   │       └── README.md
+│   │   │   ├── _7
+│   │   │   │   ├── assignment-statements
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── expression-statements
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── the-assert-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-break-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-continue-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-del-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-global-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-import-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-nonlocal-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-pass-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-raise-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-return-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-type-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   └── the-yield-statement
+│   │   │   │       └── README.md
+│   │   │   ├── _8
+│   │   │   │   ├── class-definitions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── coroutines
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── function-definitions
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── README.md
+│   │   │   │   ├── the-for-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-if-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-match-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-try-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-while-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── the-with-statement
+│   │   │   │   │   └── README.md
+│   │   │   │   └── type-parameter-lists
+│   │   │   │       └── README.md
+│   │   │   ├── _9
+│   │   │   │   ├── complete-python-programs
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── expression-input
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── file-input
+│   │   │   │   │   └── README.md
+│   │   │   │   ├── interactive-input
+│   │   │   │   │   └── README.md
+│   │   │   │   └── README.md
+│   │   │   └── README.md
+│   │   ├── README.md
+│   │   └── typescript
+│   │       ├── _1
+│   │       │   ├── compiler-cli
+│   │       │   │   └── README.md
+│   │       │   ├── getting-started
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   ├── tsconfig-basics
+│   │       │   │   └── README.md
+│   │       │   └── ts-vs-js
+│   │       │       └── README.md
+│   │       ├── _10
+│   │       │   ├── compiler-flags
+│   │       │   │   └── README.md
+│   │       │   ├── incremental-compilation
+│   │       │   │   └── README.md
+│   │       │   ├── module-targets
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   ├── strict-mode
+│   │       │   │   └── README.md
+│   │       │   └── tsconfig-structure
+│   │       │       └── README.md
+│   │       ├── _11
+│   │       │   ├── bundlers-vite
+│   │       │   │   └── README.md
+│   │       │   ├── bundlers-webpack
+│   │       │   │   └── README.md
+│   │       │   ├── linting-eslint
+│   │       │   │   └── README.md
+│   │       │   ├── prettier-formatting
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   └── testing-jest
+│   │       │       └── README.md
+│   │       ├── _12
+│   │       │   ├── ast-manipulation
+│   │       │   │   └── README.md
+│   │       │   ├── building-ts-plugins
+│   │       │   │   └── README.md
+│   │       │   ├── compiler-api-overview
+│   │       │   │   └── README.md
+│   │       │   ├── custom-transformers
+│   │       │   │   └── README.md
+│   │       │   ├── language-service
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── _2
+│   │       │   ├── any-unknown-never
+│   │       │   │   └── README.md
+│   │       │   ├── arrays-and-tuples
+│   │       │   │   └── README.md
+│   │       │   ├── enums
+│   │       │   │   └── README.md
+│   │       │   ├── primitive-types
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   └── type-assertions
+│   │       │       └── README.md
+│   │       ├── _3
+│   │       │   ├── function-declarations
+│   │       │   │   └── README.md
+│   │       │   ├── function-types
+│   │       │   │   └── README.md
+│   │       │   ├── optional-default-rest
+│   │       │   │   └── README.md
+│   │       │   ├── overloads
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── _4
+│   │       │   ├── index-signatures
+│   │       │   │   └── README.md
+│   │       │   ├── interfaces
+│   │       │   │   └── README.md
+│   │       │   ├── intersection-vs-union
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   ├── readonly-vs-const
+│   │       │   │   └── README.md
+│   │       │   └── type-aliases
+│   │       │       └── README.md
+│   │       ├── _5
+│   │       │   ├── abstract-classes
+│   │       │   │   └── README.md
+│   │       │   ├── access-modifiers
+│   │       │   │   └── README.md
+│   │       │   ├── class-basics
+│   │       │   │   └── README.md
+│   │       │   ├── decorators
+│   │       │   │   └── README.md
+│   │       │   ├── implements-interface
+│   │       │   │   └── README.md
+│   │       │   ├── inheritance
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── _6
+│   │       │   ├── default-type-parameters
+│   │       │   │   └── README.md
+│   │       │   ├── generic-constraints
+│   │       │   │   └── README.md
+│   │       │   ├── generics-basics
+│   │       │   │   └── README.md
+│   │       │   ├── generics-with-classes
+│   │       │   │   └── README.md
+│   │       │   ├── generics-with-functions
+│   │       │   │   └── README.md
+│   │       │   ├── mapped-types
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── _7
+│   │       │   ├── conditional-types
+│   │       │   │   └── README.md
+│   │       │   ├── discriminated-unions
+│   │       │   │   └── README.md
+│   │       │   ├── infer-keyword
+│   │       │   │   └── README.md
+│   │       │   ├── keyof-operator
+│   │       │   │   └── README.md
+│   │       │   ├── README.md
+│   │       │   ├── template-literal-types
+│   │       │   │   └── README.md
+│   │       │   ├── typeof-operator
+│   │       │   │   └── README.md
+│   │       │   └── utility-types
+│   │       │       └── README.md
+│   │       ├── _8
+│   │       │   ├── ambient-modules
+│   │       │   │   └── README.md
+│   │       │   ├── commonjs-require
+│   │       │   │   └── README.md
+│   │       │   ├── module-resolution
+│   │       │   │   └── README.md
+│   │       │   ├── modules-esm
+│   │       │   │   └── README.md
+│   │       │   ├── namespace-vs-module
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       ├── _9
+│   │       │   ├── async-await
+│   │       │   │   └── README.md
+│   │       │   ├── async-iterators
+│   │       │   │   └── README.md
+│   │       │   ├── iterators-generators
+│   │       │   │   └── README.md
+│   │       │   ├── promises
+│   │       │   │   └── README.md
+│   │       │   └── README.md
+│   │       └── README.md
+│   ├── PRIVACY_POLICY.md
+│   ├── SECURITY.md
+│   ├── sidebar.js
+│   ├── sidebar.json
+│   └── SUPPORT.md
+├── gen-changelog.sh
+├── github-issue-bulk
+│   ├── create-issues.js
+│   ├── issues.yml
+│   ├── node_modules
+│   │   ├── argparse
+│   │   │   ├── argparse.js
+│   │   │   ├── CHANGELOG.md
+│   │   │   ├── lib
+│   │   │   │   ├── sub.js
+│   │   │   │   └── textwrap.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   ├── before-after-hook
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   ├── lib
+│   │   │   │   ├── add.js
+│   │   │   │   ├── register.js
+│   │   │   │   └── remove.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   ├── dotenv
+│   │   │   ├── CHANGELOG.md
+│   │   │   ├── config.d.ts
+│   │   │   ├── config.js
+│   │   │   ├── lib
+│   │   │   │   ├── cli-options.js
+│   │   │   │   ├── env-options.js
+│   │   │   │   ├── main.d.ts
+│   │   │   │   └── main.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   ├── README-es.md
+│   │   │   ├── README.md
+│   │   │   └── SECURITY.md
+│   │   ├── fast-content-type-parse
+│   │   │   ├── benchmarks
+│   │   │   │   ├── simple.js
+│   │   │   │   ├── simple-ows.js
+│   │   │   │   ├── suite.js
+│   │   │   │   ├── with-param.js
+│   │   │   │   └── with-param-quoted.js
+│   │   │   ├── eslint.config.js
+│   │   │   ├── index.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   ├── README.md
+│   │   │   ├── test
+│   │   │   │   └── index.test.js
+│   │   │   └── types
+│   │   │       ├── index.d.ts
+│   │   │       └── index.test-d.ts
+│   │   ├── js-yaml
+│   │   │   ├── bin
+│   │   │   │   └── js-yaml.js
+│   │   │   ├── CHANGELOG.md
+│   │   │   ├── dist
+│   │   │   │   ├── js-yaml.js
+│   │   │   │   ├── js-yaml.min.js
+│   │   │   │   └── js-yaml.mjs
+│   │   │   ├── index.js
+│   │   │   ├── lib
+│   │   │   │   ├── common.js
+│   │   │   │   ├── dumper.js
+│   │   │   │   ├── exception.js
+│   │   │   │   ├── loader.js
+│   │   │   │   ├── schema
+│   │   │   │   │   ├── core.js
+│   │   │   │   │   ├── default.js
+│   │   │   │   │   ├── failsafe.js
+│   │   │   │   │   └── json.js
+│   │   │   │   ├── schema.js
+│   │   │   │   ├── snippet.js
+│   │   │   │   ├── type
+│   │   │   │   │   ├── binary.js
+│   │   │   │   │   ├── bool.js
+│   │   │   │   │   ├── float.js
+│   │   │   │   │   ├── int.js
+│   │   │   │   │   ├── map.js
+│   │   │   │   │   ├── merge.js
+│   │   │   │   │   ├── null.js
+│   │   │   │   │   ├── omap.js
+│   │   │   │   │   ├── pairs.js
+│   │   │   │   │   ├── seq.js
+│   │   │   │   │   ├── set.js
+│   │   │   │   │   ├── str.js
+│   │   │   │   │   └── timestamp.js
+│   │   │   │   └── type.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   ├── @octokit
+│   │   │   ├── auth-token
+│   │   │   │   ├── dist-bundle
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── index.js.map
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── auth.js
+│   │   │   │   │   ├── hook.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── is-jwt.js
+│   │   │   │   │   └── with-authorization-prefix.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── auth.d.ts
+│   │   │   │   │   ├── hook.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── is-jwt.d.ts
+│   │   │   │   │   ├── types.d.ts
+│   │   │   │   │   └── with-authorization-prefix.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── core
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── version.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── types.d.ts
+│   │   │   │   │   └── version.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── endpoint
+│   │   │   │   ├── dist-bundle
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── index.js.map
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── defaults.js
+│   │   │   │   │   ├── endpoint-with-defaults.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── merge.js
+│   │   │   │   │   ├── parse.js
+│   │   │   │   │   ├── util
+│   │   │   │   │   │   ├── add-query-parameters.js
+│   │   │   │   │   │   ├── extract-url-variable-names.js
+│   │   │   │   │   │   ├── is-plain-object.js
+│   │   │   │   │   │   ├── lowercase-keys.js
+│   │   │   │   │   │   ├── merge-deep.js
+│   │   │   │   │   │   ├── omit.js
+│   │   │   │   │   │   ├── remove-undefined-properties.js
+│   │   │   │   │   │   └── url-template.js
+│   │   │   │   │   ├── version.js
+│   │   │   │   │   └── with-defaults.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── defaults.d.ts
+│   │   │   │   │   ├── endpoint-with-defaults.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── merge.d.ts
+│   │   │   │   │   ├── parse.d.ts
+│   │   │   │   │   ├── util
+│   │   │   │   │   │   ├── add-query-parameters.d.ts
+│   │   │   │   │   │   ├── extract-url-variable-names.d.ts
+│   │   │   │   │   │   ├── is-plain-object.d.ts
+│   │   │   │   │   │   ├── lowercase-keys.d.ts
+│   │   │   │   │   │   ├── merge-deep.d.ts
+│   │   │   │   │   │   ├── omit.d.ts
+│   │   │   │   │   │   ├── remove-undefined-properties.d.ts
+│   │   │   │   │   │   └── url-template.d.ts
+│   │   │   │   │   ├── version.d.ts
+│   │   │   │   │   └── with-defaults.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── graphql
+│   │   │   │   ├── dist-bundle
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── index.js.map
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── error.js
+│   │   │   │   │   ├── graphql.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── version.js
+│   │   │   │   │   └── with-defaults.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── error.d.ts
+│   │   │   │   │   ├── graphql.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── types.d.ts
+│   │   │   │   │   ├── version.d.ts
+│   │   │   │   │   └── with-defaults.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── openapi-types
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   ├── README.md
+│   │   │   │   └── types.d.ts
+│   │   │   ├── plugin-paginate-rest
+│   │   │   │   ├── dist-bundle
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── index.js.map
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── compose-paginate.js
+│   │   │   │   │   ├── generated
+│   │   │   │   │   │   └── paginating-endpoints.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── iterator.js
+│   │   │   │   │   ├── normalize-paginated-list-response.js
+│   │   │   │   │   ├── paginate.js
+│   │   │   │   │   ├── paginating-endpoints.js
+│   │   │   │   │   └── version.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── compose-paginate.d.ts
+│   │   │   │   │   ├── generated
+│   │   │   │   │   │   └── paginating-endpoints.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── iterator.d.ts
+│   │   │   │   │   ├── normalize-paginated-list-response.d.ts
+│   │   │   │   │   ├── paginate.d.ts
+│   │   │   │   │   ├── paginating-endpoints.d.ts
+│   │   │   │   │   ├── types.d.ts
+│   │   │   │   │   └── version.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── plugin-request-log
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── version.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   └── version.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── plugin-rest-endpoint-methods
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── endpoints-to-methods.js
+│   │   │   │   │   ├── endpoints-to-methods.js.map
+│   │   │   │   │   ├── generated
+│   │   │   │   │   │   ├── endpoints.js
+│   │   │   │   │   │   └── endpoints.js.map
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── index.js.map
+│   │   │   │   │   ├── version.js
+│   │   │   │   │   └── version.js.map
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── endpoints-to-methods.d.ts
+│   │   │   │   │   ├── generated
+│   │   │   │   │   │   ├── endpoints.d.ts
+│   │   │   │   │   │   ├── method-types.d.ts
+│   │   │   │   │   │   └── parameters-and-response-types.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── types.d.ts
+│   │   │   │   │   └── version.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── request
+│   │   │   │   ├── dist-bundle
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   └── index.js.map
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── defaults.js
+│   │   │   │   │   ├── fetch-wrapper.js
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── is-plain-object.js
+│   │   │   │   │   ├── version.js
+│   │   │   │   │   └── with-defaults.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── defaults.d.ts
+│   │   │   │   │   ├── fetch-wrapper.d.ts
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   ├── is-plain-object.d.ts
+│   │   │   │   │   ├── version.d.ts
+│   │   │   │   │   └── with-defaults.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── request-error
+│   │   │   │   ├── dist-src
+│   │   │   │   │   └── index.js
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   └── types.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   ├── rest
+│   │   │   │   ├── dist-src
+│   │   │   │   │   ├── index.js
+│   │   │   │   │   ├── index.js.map
+│   │   │   │   │   ├── version.js
+│   │   │   │   │   └── version.js.map
+│   │   │   │   ├── dist-types
+│   │   │   │   │   ├── index.d.ts
+│   │   │   │   │   └── version.d.ts
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   └── README.md
+│   │   │   └── types
+│   │   │       ├── dist-types
+│   │   │       │   ├── AuthInterface.d.ts
+│   │   │       │   ├── EndpointDefaults.d.ts
+│   │   │       │   ├── EndpointInterface.d.ts
+│   │   │       │   ├── EndpointOptions.d.ts
+│   │   │       │   ├── Fetch.d.ts
+│   │   │       │   ├── generated
+│   │   │       │   │   └── Endpoints.d.ts
+│   │   │       │   ├── GetResponseTypeFromEndpointMethod.d.ts
+│   │   │       │   ├── index.d.ts
+│   │   │       │   ├── OctokitResponse.d.ts
+│   │   │       │   ├── RequestError.d.ts
+│   │   │       │   ├── RequestHeaders.d.ts
+│   │   │       │   ├── RequestInterface.d.ts
+│   │   │       │   ├── RequestMethod.d.ts
+│   │   │       │   ├── RequestOptions.d.ts
+│   │   │       │   ├── RequestParameters.d.ts
+│   │   │       │   ├── RequestRequestOptions.d.ts
+│   │   │       │   ├── ResponseHeaders.d.ts
+│   │   │       │   ├── Route.d.ts
+│   │   │       │   ├── StrategyInterface.d.ts
+│   │   │       │   ├── Url.d.ts
+│   │   │       │   └── VERSION.d.ts
+│   │   │       ├── LICENSE
+│   │   │       ├── package.json
+│   │   │       └── README.md
+│   │   └── universal-user-agent
+│   │       ├── CODE_OF_CONDUCT.md
+│   │       ├── index.d.ts
+│   │       ├── index.js
+│   │       ├── index.test-d.ts
+│   │       ├── index.test.js
+│   │       ├── LICENSE.md
+│   │       ├── package.json
+│   │       ├── README.md
+│   │       └── SECURITY.md
+│   ├── package.json
+│   └── package-lock.json
 ├── GOVERNANCE.md
 ├── guide.md
 ├── index.html
@@ -10,6 +1115,7 @@
 ├── intro.md
 ├── LICENSE
 ├── _navbar.md
+├── package.json
 ├── pages
 │   ├── git
 │   │   ├── _10-best-practices
@@ -555,15 +1661,17 @@
 │   │   │   │   └── README.md
 │   │   │   └── type-parameter-lists
 │   │   │       └── README.md
-│   │   └── _9
-│   │       ├── complete-python-programs
-│   │       │   └── README.md
-│   │       ├── expression-input
-│   │       │   └── README.md
-│   │       ├── file-input
-│   │       │   └── README.md
-│   │       └── interactive-input
-│   │           └── README.md
+│   │   ├── _9
+│   │   │   ├── complete-python-programs
+│   │   │   │   └── README.md
+│   │   │   ├── expression-input
+│   │   │   │   └── README.md
+│   │   │   ├── file-input
+│   │   │   │   └── README.md
+│   │   │   └── interactive-input
+│   │   │       └── README.md
+│   │   └── README.md
+│   ├── README.md
 │   └── typescript
 │       ├── _1
 │       │   ├── compiler-cli
@@ -690,23 +1798,303 @@
 │       │   │   └── README.md
 │       │   └── namespace-vs-module
 │       │       └── README.md
-│       └── _9
-│           ├── async-await
-│           │   └── README.md
-│           ├── async-iterators
-│           │   └── README.md
-│           ├── iterators-generators
-│           │   └── README.md
-│           └── promises
-│               └── README.md
+│       ├── _9
+│       │   ├── async-await
+│       │   │   └── README.md
+│       │   ├── async-iterators
+│       │   │   └── README.md
+│       │   ├── iterators-generators
+│       │   │   └── README.md
+│       │   └── promises
+│       │       └── README.md
+│       └── README.md
 ├── plugins
+│   ├── 3d_model_viewer
+│   │   ├── 3d_model_viewer.js
+│   │   └── README.md
+│   ├── accordion_component
+│   │   ├── accordion_component.js
+│   │   └── README.md
+│   ├── analytics_tracker
+│   │   ├── analytics_tracker.js
+│   │   └── README.md
+│   ├── anti_copy
+│   │   ├── anti_copy.js
+│   │   └── README.md
+│   ├── api_reference_builder
+│   │   ├── api_reference_builder.js
+│   │   └── README.md
+│   ├── asciinema_embed
+│   │   ├── asciinema_embed.js
+│   │   └── README.md
+│   ├── audio_embed
+│   │   ├── audio_embed.js
+│   │   └── README.md
+│   ├── auto_sidebar_generator
+│   │   ├── auto_sidebar_generator.js
+│   │   └── README.md
+│   ├── breadcrumbs
+│   │   ├── breadcrumbs.js
+│   │   └── README.md
+│   ├── buy_me_coffee
+│   │   ├── buy_me_coffee.js
+│   │   └── README.md
+│   ├── caching_strategy
+│   │   ├── caching_strategy.js
+│   │   └── README.md
+│   ├── chartjs_support
+│   │   ├── chartjs_support.js
+│   │   └── README.md
+│   ├── code_sandbox_embed
+│   │   ├── code_sandbox_embed.js
+│   │   └── README.md
+│   ├── collapsible_sections
+│   │   ├── collapsible_sections.js
+│   │   └── README.md
+│   ├── comment_box
+│   │   ├── comment_box.js
+│   │   └── README.md
+│   ├── content_password_protect
+│   │   ├── content_password_protect.js
+│   │   └── README.md
 │   ├── copy_code_block
+│   │   ├── copy_code_block.js
+│   │   └── README.md
+│   ├── copy_heading_link
+│   │   ├── copy_heading_link.js
+│   │   └── README.md
+│   ├── custom_alerts
+│   │   ├── custom_alerts.js
+│   │   └── README.md
+│   ├── custom_footer
+│   │   ├── custom_footer.js
+│   │   └── README.md
+│   ├── custom_header
+│   │   ├── custom_header.js
+│   │   └── README.md
 │   ├── custom_router
+│   │   └── README.md
+│   ├── dark_mode_toggle
+│   │   ├── dark_mode_toggle.js
+│   │   └── README.md
+│   ├── diagram_renderer
+│   │   ├── diagram_renderer.js
+│   │   └── README.md
+│   ├── disqus_integration
+│   │   ├── disqus_integration.js
+│   │   └── README.md
+│   ├── donate_button
+│   │   ├── donate_button.js
+│   │   └── README.md
 │   ├── download_pdf
+│   │   ├── download_pdf.js
+│   │   └── README.md
+│   ├── draggable_blocks
+│   │   ├── draggable_blocks.js
+│   │   └── README.md
 │   ├── edit_on_github
+│   │   ├── edit_on_github.js
+│   │   └── README.md
+│   ├── emoji_support
+│   │   ├── emoji_support.js
+│   │   └── README.md
+│   ├── estimated_completion
+│   │   ├── estimated_completion.js
+│   │   └── README.md
+│   ├── external_link_icon
+│   │   ├── external_link_icon.js
+│   │   └── README.md
+│   ├── favicon_injector
+│   │   ├── favicon_injector.js
+│   │   └── README.md
+│   ├── feedback_button
+│   │   ├── feedback_button.js
+│   │   └── README.md
+│   ├── floating_toc
+│   │   ├── floating_toc.js
+│   │   └── README.md
+│   ├── focus_mode
+│   │   ├── focus_mode.js
+│   │   └── README.md
+│   ├── giscus_integration
+│   │   ├── giscus_integration.js
+│   │   └── README.md
+│   ├── graphql_explorer
+│   │   ├── graphql_explorer.js
+│   │   └── README.md
+│   ├── graphviz_support
+│   │   ├── graphviz_support.js
+│   │   └── README.md
+│   ├── image_caption
+│   │   ├── image_caption.js
+│   │   └── README.md
+│   ├── image_gallery
+│   │   ├── image_gallery.js
+│   │   └── README.md
+│   ├── image_lazyload
+│   │   ├── image_lazyload.js
+│   │   └── README.md
+│   ├── include_ads
+│   │   ├── include_ads.js
+│   │   └── README.md
+│   ├── interactive_playground
+│   │   ├── interactive_playground.js
+│   │   └── README.md
+│   ├── keyboard_navigation
+│   │   ├── keyboard_navigation.js
+│   │   └── README.md
+│   ├── keyboard_shortcuts
+│   │   ├── keyboard_shortcuts.js
+│   │   └── README.md
+│   ├── last_updated
+│   │   ├── last_updated.js
+│   │   └── README.md
+│   ├── like_button
+│   │   ├── like_button.js
+│   │   └── README.md
+│   ├── login_required
+│   │   ├── login_required.js
+│   │   └── README.md
+│   ├── markdown_include
+│   │   ├── markdown_include.js
+│   │   └── README.md
+│   ├── mathjax_support
+│   │   ├── mathjax_support.js
+│   │   └── README.md
+│   ├── mermaid_diagram
+│   │   ├── mermaid_diagram.js
+│   │   └── README.md
 │   ├── metadata_include
+│   │   └── README.md
+│   ├── modal_component
+│   │   ├── modal_component.js
+│   │   └── README.md
+│   ├── multi_language_switcher
+│   │   ├── multi_language_switcher.js
+│   │   └── README.md
+│   ├── multimedia_annotations
+│   │   ├── multimedia_annotations.js
+│   │   └── README.md
+│   ├── night_shift_mode
+│   │   ├── night_shift_mode.js
+│   │   └── README.md
+│   ├── offline_mode
+│   │   ├── offline_mode.js
+│   │   └── README.md
+│   ├── openapi_renderer
+│   │   ├── openapi_renderer.js
+│   │   └── README.md
+│   ├── pdf_embed
+│   │   ├── pdf_embed.js
+│   │   └── README.md
+│   ├── plantuml_support
+│   │   ├── plantuml_support.js
+│   │   └── README.md
+│   ├── print_pdf_button
+│   │   ├── print_pdf_button.js
+│   │   └── README.md
+│   ├── progress_bar
+│   │   ├── progress_bar.js
+│   │   └── README.md
+│   ├── pwa_support
+│   │   ├── pwa_support.js
+│   │   └── README.md
+│   ├── quick_jump
+│   │   ├── quick_jump.js
+│   │   └── README.md
+│   ├── rating_star
+│   │   ├── rating_star.js
+│   │   └── README.md
+│   ├── reading_progress_indicator
+│   │   ├── reading_progress_indicator.js
+│   │   └── README.md
+│   ├── reading_time
+│   │   ├── reading_time.js
+│   │   └── README.md
+│   ├── role_based_content
+│   │   ├── README.md
+│   │   └── role_based_content.js
 │   ├── run_code_in_page
-│   └── show_source_code
+│   │   ├── README.md
+│   │   └── run_code_in_page.js
+│   ├── scroll_to_top
+│   │   ├── README.md
+│   │   └── scroll_to_top.js
+│   ├── search_filters
+│   │   ├── README.md
+│   │   └── search_filters.js
+│   ├── search_highlight
+│   │   ├── README.md
+│   │   └── search_highlight.js
+│   ├── search_suggestion
+│   │   ├── README.md
+│   │   └── search_suggestion.js
+│   ├── search_voice
+│   │   ├── README.md
+│   │   └── search_voice.js
+│   ├── section_highlight
+│   │   ├── README.md
+│   │   └── section_highlight.js
+│   ├── service_worker
+│   │   ├── README.md
+│   │   └── service_worker.js
+│   ├── share_buttons
+│   │   ├── README.md
+│   │   └── share_buttons.js
+│   ├── show_source_code
+│   │   ├── README.md
+│   │   └── show_source_code.js
+│   ├── slides_embed
+│   │   ├── README.md
+│   │   └── slides_embed.js
+│   ├── spoiler_component
+│   │   ├── README.md
+│   │   └── spoiler_component.js
+│   ├── sponsor_banner
+│   │   ├── README.md
+│   │   └── sponsor_banner.js
+│   ├── sticky_sidebar
+│   │   ├── README.md
+│   │   └── sticky_sidebar.js
+│   ├── swagger_embed
+│   │   ├── README.md
+│   │   └── swagger_embed.js
+│   ├── syntax_highlighter
+│   │   ├── README.md
+│   │   └── syntax_highlighter.js
+│   ├── tab_highlight
+│   │   ├── README.md
+│   │   └── tab_highlight.js
+│   ├── table_of_contents
+│   │   ├── README.md
+│   │   └── table_of_contents.js
+│   ├── tabs_component
+│   │   ├── README.md
+│   │   └── tabs_component.js
+│   ├── theme_switcher
+│   │   ├── README.md
+│   │   └── theme_switcher.js
+│   ├── tooltip_component
+│   │   ├── README.md
+│   │   └── tooltip_component.js
+│   ├── version_switcher
+│   │   ├── README.md
+│   │   └── version_switcher.js
+│   ├── video_embed
+│   │   ├── README.md
+│   │   └── video_embed.js
+│   ├── voice_reader
+│   │   ├── README.md
+│   │   └── voice_reader.js
+│   ├── watermark_docs
+│   │   ├── README.md
+│   │   └── watermark_docs.js
+│   ├── word_count
+│   │   ├── README.md
+│   │   └── word_count.js
+│   └── zoom_image_custom
+│       ├── README.md
+│       └── zoom_image_custom.js
 ├── PRIVACY_POLICY.md
 ├── README.md
 ├── resources
@@ -725,4 +2113,4 @@
 ├── SUPPORT.md
 └── todo.md
 
-394 directories, 332 files
+926 directories, 1188 files
