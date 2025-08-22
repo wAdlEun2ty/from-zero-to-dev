@@ -1,0 +1,21 @@
+{
+  "name": "from-zero-to-dev",
+  "version": "1.0.0",
+  "description": "> a collection of notes, summaries, and small experiments that I learned during my programming learning journey.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"bash gen-changelog.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wAdlEun2ty/from-zero-to-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wAdlEun2ty/from-zero-to-dev/issues"
+  },
+  "homepage": "https://github.com/wAdlEun2ty/from-zero-to-dev#readme"
+}

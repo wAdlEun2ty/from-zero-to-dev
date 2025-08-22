@@ -8,6 +8,10 @@ lerna-debug.log*
 .config/
 .vscode
 github-issue-bulk/
+gen-changelog.sh
+CHANGELOG.md.bak.*
+from-zero-to-dev.wiki/
+package.josn
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
