@@ -11,24 +11,235 @@
 ├── LICENSE
 ├── _navbar.md
 ├── pages
+│   ├── git
+│   │   ├── _10-best-practices
+│   │   │   ├── best-practices
+│   │   │   │   └── README.md
+│   │   │   ├── cheatsheet
+│   │   │   │   └── README.md
+│   │   │   └── common-mistakes
+│   │   │       └── README.md
+│   │   ├── _1-dasar
+│   │   │   ├── apa-itu-git
+│   │   │   │   └── README.md
+│   │   │   ├── instalasi
+│   │   │   │   └── README.md
+│   │   │   ├── konfigurasi
+│   │   │   │   └── README.md
+│   │   │   └── konsep-versi-control
+│   │   │       └── README.md
+│   │   ├── _2-repository
+│   │   │   ├── git-add-commit
+│   │   │   │   └── README.md
+│   │   │   ├── gitignore
+│   │   │   │   └── README.md
+│   │   │   ├── git-init-clone
+│   │   │   │   └── README.md
+│   │   │   └── git-status-log
+│   │   │       └── README.md
+│   │   ├── _3-branching
+│   │   │   ├── conflict
+│   │   │   │   └── README.md
+│   │   │   ├── fast-forward
+│   │   │   │   └── README.md
+│   │   │   ├── membuat-branch
+│   │   │   │   └── README.md
+│   │   │   ├── merge
+│   │   │   │   └── README.md
+│   │   │   └── rebase
+│   │   │       └── README.md
+│   │   ├── _4-remote
+│   │   │   ├── menambah-remote
+│   │   │   │   └── README.md
+│   │   │   ├── push-pull-fetch
+│   │   │   │   └── README.md
+│   │   │   ├── submodule
+│   │   │   │   └── README.md
+│   │   │   └── upstream-tracking
+│   │   │       └── README.md
+│   │   ├── _5-undo
+│   │   │   ├── git-checkout
+│   │   │   │   └── README.md
+│   │   │   ├── git-reset
+│   │   │   │   └── README.md
+│   │   │   ├── git-revert
+│   │   │   │   └── README.md
+│   │   │   └── git-stash
+│   │   │       └── README.md
+│   │   ├── _6-advanced
+│   │   │   ├── bisect
+│   │   │   │   └── README.md
+│   │   │   ├── cherry-pick
+│   │   │   │   └── README.md
+│   │   │   ├── hooks
+│   │   │   │   └── README.md
+│   │   │   ├── reflog
+│   │   │   │   └── README.md
+│   │   │   └── tagging
+│   │   │       └── README.md
+│   │   ├── _7-tools
+│   │   │   ├── gitattributes
+│   │   │   │   └── README.md
+│   │   │   ├── performance
+│   │   │   │   └── README.md
+│   │   │   ├── sparse-checkout
+│   │   │   │   └── README.md
+│   │   │   └── worktrees
+│   │   │       └── README.md
+│   │   ├── _8-workflow
+│   │   │   ├── code-review
+│   │   │   │   └── README.md
+│   │   │   ├── feature-branch
+│   │   │   │   └── README.md
+│   │   │   ├── gitflow
+│   │   │   │   └── README.md
+│   │   │   └── trunk-based
+│   │   │       └── README.md
+│   │   ├── _9-integrasi
+│   │   │   ├── ci-cd
+│   │   │   │   └── README.md
+│   │   │   ├── github
+│   │   │   │   └── README.md
+│   │   │   ├── gitlab
+│   │   │   │   └── README.md
+│   │   │   └── secrets
+│   │   │       └── README.md
+│   │   └── README.md
+│   ├── go
+│   │   ├── _10-database
+│   │   │   ├── caching-redis
+│   │   │   │   └── README.md
+│   │   │   ├── migration
+│   │   │   │   └── README.md
+│   │   │   ├── orm-gorm
+│   │   │   │   └── README.md
+│   │   │   └── sql-database
+│   │   │       └── README.md
+│   │   ├── _11-advanced
+│   │   │   ├── generics
+│   │   │   │   └── README.md
+│   │   │   ├── plugin
+│   │   │   │   └── README.md
+│   │   │   ├── reflection
+│   │   │   │   └── README.md
+│   │   │   └── unsafe
+│   │   │       └── README.md
+│   │   ├── _12-best-practices
+│   │   │   ├── cheatsheet
+│   │   │   │   └── README.md
+│   │   │   ├── clean-architecture
+│   │   │   │   └── README.md
+│   │   │   ├── error-handling-best
+│   │   │   │   └── README.md
+│   │   │   ├── microservices
+│   │   │   │   └── README.md
+│   │   │   └── project-structure
+│   │   │       └── README.md
+│   │   ├── _1-dasar
+│   │   │   ├── apa-itu-go
+│   │   │   │   └── README.md
+│   │   │   ├── go-tooling
+│   │   │   │   └── README.md
+│   │   │   ├── hello-world
+│   │   │   │   └── README.md
+│   │   │   └── instalasi
+│   │   │       └── README.md
+│   │   ├── _2-struktur-data
+│   │   │   ├── array-slice-map
+│   │   │   │   └── README.md
+│   │   │   ├── struct-interface
+│   │   │   │   └── README.md
+│   │   │   ├── tipe-data-primitif
+│   │   │   │   └── README.md
+│   │   │   └── variabel-konstanta
+│   │   │       └── README.md
+│   │   ├── _3-fungsi-error
+│   │   │   ├── error-handling
+│   │   │   │   └── README.md
+│   │   │   ├── fungsi
+│   │   │   │   └── README.md
+│   │   │   ├── multiple-return
+│   │   │   │   └── README.md
+│   │   │   └── panic-recover
+│   │   │       └── README.md
+│   │   ├── _4-struktur-program
+│   │   │   ├── control-flow
+│   │   │   │   └── README.md
+│   │   │   ├── dependency-management
+│   │   │   │   └── README.md
+│   │   │   ├── oop-style
+│   │   │   │   └── README.md
+│   │   │   └── package-module
+│   │   │       └── README.md
+│   │   ├── _5-concurrency
+│   │   │   ├── channel
+│   │   │   │   └── README.md
+│   │   │   ├── context
+│   │   │   │   └── README.md
+│   │   │   ├── goroutine
+│   │   │   │   └── README.md
+│   │   │   ├── mutex-wg
+│   │   │   │   └── README.md
+│   │   │   └── select
+│   │   │       └── README.md
+│   │   ├── _6-stdlib
+│   │   │   ├── encoding-json-xml
+│   │   │   │   └── README.md
+│   │   │   ├── fmt-log
+│   │   │   │   └── README.md
+│   │   │   ├── math-rand
+│   │   │   │   └── README.md
+│   │   │   ├── net-http
+│   │   │   │   └── README.md
+│   │   │   ├── os-io-bufio
+│   │   │   │   └── README.md
+│   │   │   └── time
+│   │   │       └── README.md
+│   │   ├── _7-testing
+│   │   │   ├── benchmark
+│   │   │   │   └── README.md
+│   │   │   ├── mocking
+│   │   │   │   └── README.md
+│   │   │   ├── table-test
+│   │   │   │   └── README.md
+│   │   │   └── unit-test
+│   │   │       └── README.md
+│   │   ├── _8-io-os
+│   │   │   ├── cli-flag
+│   │   │   │   └── README.md
+│   │   │   ├── file-read-write
+│   │   │   │   └── README.md
+│   │   │   └── filesystem
+│   │   │       └── README.md
+│   │   ├── _9-networking-web
+│   │   │   ├── grpc
+│   │   │   │   └── README.md
+│   │   │   ├── http-server
+│   │   │   │   └── README.md
+│   │   │   ├── rest-api
+│   │   │   │   └── README.md
+│   │   │   └── websocket
+│   │   │       └── README.md
+│   │   └── README.md
 │   ├── js
-│   │   ├── #1
+│   │   ├── _1
 │   │   │   ├── ecmascript
 │   │   │   │   └── README.md
 │   │   │   ├── javascript-itu-apa-sih
 │   │   │   │   └── README.md
 │   │   │   ├── javascript-vs-java-beda-ya
 │   │   │   │   └── README.md
+│   │   │   ├── README.md
 │   │   │   ├── selanjutnya-belajar-apa
 │   │   │   │   └── README.md
 │   │   │   ├── tentang-panduan-ini
 │   │   │   │   └── README.md
 │   │   │   └── tools-yang-perlu-disiapin
 │   │   │       └── README.md
-│   │   ├── #10
+│   │   ├── _10
 │   │   │   └── array-typed-arrays
 │   │   │       └── README.md
-│   │   ├── #11
+│   │   ├── _11
 │   │   │   ├── map
 │   │   │   │   └── README.md
 │   │   │   ├── set
@@ -37,7 +248,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── weakset
 │   │   │       └── README.md
-│   │   ├── #12
+│   │   ├── _12
 │   │   │   ├── cara-bikin-object
 │   │   │   │   └── README.md
 │   │   │   ├── definisi-method
@@ -46,7 +257,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── object-properti
 │   │   │       └── README.md
-│   │   ├── #13
+│   │   ├── _13
 │   │   │   ├── deklarasi-class
 │   │   │   │   └── README.md
 │   │   │   ├── extends-inheritance
@@ -55,7 +266,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── konstruktor
 │   │   │       └── README.md
-│   │   ├── #14
+│   │   ├── _14
 │   │   │   ├── chaining
 │   │   │   │   └── README.md
 │   │   │   ├── composition
@@ -66,24 +277,24 @@
 │   │   │   │   └── README.md
 │   │   │   └── timing
 │   │   │       └── README.md
-│   │   ├── #15
+│   │   ├── _15
 │   │   │   └── typed-arrays
 │   │   │       └── README.md
-│   │   ├── #16
+│   │   ├── _16
 │   │   │   ├── generators
 │   │   │   │   └── README.md
 │   │   │   ├── iterables
 │   │   │   │   └── README.md
 │   │   │   └── iterators
 │   │   │       └── README.md
-│   │   ├── #17
+│   │   ├── _17
 │   │   │   ├── collation
 │   │   │   │   └── README.md
 │   │   │   ├── format-angka
 │   │   │   │   └── README.md
 │   │   │   └── format-tanggal-waktu
 │   │   │       └── README.md
-│   │   ├── #18
+│   │   ├── _18
 │   │   │   ├── aggregating-modules
 │   │   │   │   └── README.md
 │   │   │   ├── default-exports
@@ -96,7 +307,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── renaming-features
 │   │   │       └── README.md
-│   │   ├── #19
+│   │   ├── _19
 │   │   │   ├── closures
 │   │   │   │   └── README.md
 │   │   │   ├── enumerability-ownership-properti
@@ -113,7 +324,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── struktur-data
 │   │   │       └── README.md
-│   │   ├── #2
+│   │   ├── _2
 │   │   │   ├── cara-deklarasi-variabel
 │   │   │   │   └── README.md
 │   │   │   ├── hoisting-fenomena-diangkat
@@ -126,7 +337,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── struktur-tipe-data
 │   │   │       └── README.md
-│   │   ├── #3
+│   │   ├── _3
 │   │   │   ├── if-else
 │   │   │   │   └── README.md
 │   │   │   ├── switch
@@ -135,7 +346,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── try-catch-throw
 │   │   │       └── README.md
-│   │   ├── #4
+│   │   ├── _4
 │   │   │   ├── break-berhenti-paksa
 │   │   │   │   └── README.md
 │   │   │   ├── continue-lanjut-paksa
@@ -150,7 +361,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── while-loop
 │   │   │       └── README.md
-│   │   ├── #5
+│   │   ├── _5
 │   │   │   ├── argument-parameter
 │   │   │   │   └── README.md
 │   │   │   ├── arrow-function
@@ -161,7 +372,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── scope-closure
 │   │   │       └── README.md
-│   │   ├── #6
+│   │   ├── _6
 │   │   │   ├── assignment-perbandingan
 │   │   │   │   └── README.md
 │   │   │   ├── operator-aritmatika
@@ -170,7 +381,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── operator-ternary
 │   │   │       └── README.md
-│   │   ├── #7
+│   │   ├── _7
 │   │   │   ├── math-object
 │   │   │   │   └── README.md
 │   │   │   ├── number-object
@@ -183,10 +394,10 @@
 │   │   │   │   └── README.md
 │   │   │   └── template-literals
 │   │   │       └── README.md
-│   │   ├── #8
+│   │   ├── _8
 │   │   │   └── date-object
 │   │   │       └── README.md
-│   │   ├── #9
+│   │   ├── _9
 │   │   │   ├── assertions
 │   │   │   │   └── README.md
 │   │   │   ├── cara-bikin-regex
@@ -199,17 +410,19 @@
 │   │   │   │   └── README.md
 │   │   │   └── quantifiers
 │   │   │       └── README.md
-│   │   └── README.md
+│   │   ├── README.md
+│   │   └── reference
+│   │       └── README.md
 │   ├── python
-│   │   ├── #1
+│   │   ├── _1
 │   │   │   ├── alternate-implementations
 │   │   │   │   └── README.md
 │   │   │   └── notation
 │   │   │       └── README.md
-│   │   ├── #10
+│   │   ├── _10
 │   │   │   └── full-grammar-specification
 │   │   │       └── README.md
-│   │   ├── #2
+│   │   ├── _2
 │   │   │   ├── delimiters
 │   │   │   │   └── README.md
 │   │   │   ├── identifiers-and-keywords
@@ -222,7 +435,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── other-tokens
 │   │   │       └── README.md
-│   │   ├── #3
+│   │   ├── _3
 │   │   │   ├── coroutines
 │   │   │   │   └── README.md
 │   │   │   ├── objects-values-and-types
@@ -231,14 +444,14 @@
 │   │   │   │   └── README.md
 │   │   │   └── the-standard-type-hierarchy
 │   │   │       └── README.md
-│   │   ├── #4
+│   │   ├── _4
 │   │   │   ├── exceptions
 │   │   │   │   └── README.md
 │   │   │   ├── naming-and-binding
 │   │   │   │   └── README.md
 │   │   │   └── structure-of-a-program
 │   │   │       └── README.md
-│   │   ├── #5
+│   │   ├── _5
 │   │   │   ├── importlib
 │   │   │   │   └── README.md
 │   │   │   ├── loading
@@ -257,7 +470,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── the-path-based-finder
 │   │   │       └── README.md
-│   │   ├── #6
+│   │   ├── _6
 │   │   │   ├── arithmetic-conversions
 │   │   │   │   └── README.md
 │   │   │   ├── assignment-expressions
@@ -292,7 +505,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── unary-arithmetic-and-bitwise-operations
 │   │   │       └── README.md
-│   │   ├── #7
+│   │   ├── _7
 │   │   │   ├── assignment-statements
 │   │   │   │   └── README.md
 │   │   │   ├── expression-statements
@@ -321,7 +534,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── the-yield-statement
 │   │   │       └── README.md
-│   │   ├── #8
+│   │   ├── _8
 │   │   │   ├── class-definitions
 │   │   │   │   └── README.md
 │   │   │   ├── coroutines
@@ -342,7 +555,7 @@
 │   │   │   │   └── README.md
 │   │   │   └── type-parameter-lists
 │   │   │       └── README.md
-│   │   └── #9
+│   │   └── _9
 │   │       ├── complete-python-programs
 │   │       │   └── README.md
 │   │       ├── expression-input
@@ -352,7 +565,7 @@
 │   │       └── interactive-input
 │   │           └── README.md
 │   └── typescript
-│       ├── #1
+│       ├── _1
 │       │   ├── compiler-cli
 │       │   │   └── README.md
 │       │   ├── getting-started
@@ -361,7 +574,7 @@
 │       │   │   └── README.md
 │       │   └── ts-vs-js
 │       │       └── README.md
-│       ├── #10
+│       ├── _10
 │       │   ├── compiler-flags
 │       │   │   └── README.md
 │       │   ├── incremental-compilation
@@ -372,7 +585,7 @@
 │       │   │   └── README.md
 │       │   └── tsconfig-structure
 │       │       └── README.md
-│       ├── #11
+│       ├── _11
 │       │   ├── bundlers-vite
 │       │   │   └── README.md
 │       │   ├── bundlers-webpack
@@ -383,7 +596,7 @@
 │       │   │   └── README.md
 │       │   └── testing-jest
 │       │       └── README.md
-│       ├── #12
+│       ├── _12
 │       │   ├── ast-manipulation
 │       │   │   └── README.md
 │       │   ├── building-ts-plugins
@@ -394,7 +607,7 @@
 │       │   │   └── README.md
 │       │   └── language-service
 │       │       └── README.md
-│       ├── #2
+│       ├── _2
 │       │   ├── any-unknown-never
 │       │   │   └── README.md
 │       │   ├── arrays-and-tuples
@@ -405,7 +618,7 @@
 │       │   │   └── README.md
 │       │   └── type-assertions
 │       │       └── README.md
-│       ├── #3
+│       ├── _3
 │       │   ├── function-declarations
 │       │   │   └── README.md
 │       │   ├── function-types
@@ -414,7 +627,7 @@
 │       │   │   └── README.md
 │       │   └── overloads
 │       │       └── README.md
-│       ├── #4
+│       ├── _4
 │       │   ├── index-signatures
 │       │   │   └── README.md
 │       │   ├── interfaces
@@ -425,7 +638,7 @@
 │       │   │   └── README.md
 │       │   └── type-aliases
 │       │       └── README.md
-│       ├── #5
+│       ├── _5
 │       │   ├── abstract-classes
 │       │   │   └── README.md
 │       │   ├── access-modifiers
@@ -438,7 +651,7 @@
 │       │   │   └── README.md
 │       │   └── inheritance
 │       │       └── README.md
-│       ├── #6
+│       ├── _6
 │       │   ├── default-type-parameters
 │       │   │   └── README.md
 │       │   ├── generic-constraints
@@ -451,7 +664,7 @@
 │       │   │   └── README.md
 │       │   └── mapped-types
 │       │       └── README.md
-│       ├── #7
+│       ├── _7
 │       │   ├── conditional-types
 │       │   │   └── README.md
 │       │   ├── discriminated-unions
@@ -466,7 +679,7 @@
 │       │   │   └── README.md
 │       │   └── utility-types
 │       │       └── README.md
-│       ├── #8
+│       ├── _8
 │       │   ├── ambient-modules
 │       │   │   └── README.md
 │       │   ├── commonjs-require
@@ -477,7 +690,7 @@
 │       │   │   └── README.md
 │       │   └── namespace-vs-module
 │       │       └── README.md
-│       └── #9
+│       └── _9
 │           ├── async-await
 │           │   └── README.md
 │           ├── async-iterators
@@ -486,6 +699,14 @@
 │           │   └── README.md
 │           └── promises
 │               └── README.md
+├── plugins
+│   ├── copy_code_block
+│   ├── custom_router
+│   ├── download_pdf
+│   ├── edit_on_github
+│   ├── metadata_include
+│   ├── run_code_in_page
+│   └── show_source_code
 ├── PRIVACY_POLICY.md
 ├── README.md
 ├── resources
@@ -502,7 +723,6 @@
 ├── SECURITY.md
 ├── _sidebar.md
 ├── SUPPORT.md
-├── todo.md
-└── utils
+└── todo.md
 
-270 directories, 236 files
+394 directories, 332 files

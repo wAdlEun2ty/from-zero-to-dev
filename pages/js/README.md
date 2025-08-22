@@ -1,182 +1,183 @@
 ## Perkenalan
 
-### Baca Juga: [Perkenalan](./#1/README.md)
+### Baca Juga: [Perkenalan](./_1/README.md)
 
+[LID](./)
 > [!TIP]
-> Buat lebih lengkapnya, cek diskusi di: [#1](./#3/github.com/wAdlEun2ty/from-zero-to-dev/issues/1)
+> Buat lebih lengkapnya, cek diskusi di: [#1](https://github.com/wAdlEun2ty/from-zero-to-dev/issues/1)
 
-*   [1.1. Tentang panduan ini](./#1/)
-*   [1.2. JavaScript itu apa sih?](./#1/)
-*   [1.3. JavaScript vs Java (beda ya!)](./#1/)
-*   [1.4. ECMAScript](./#1/)
-*   [1.5. Tools yang perlu disiapin](./#1/)
-*   [1.6. Selanjutnya belajar apa?](./#1/)
+*   [1.1. Tentang panduan ini](./_1/)
+*   [1.2. JavaScript itu apa sih?](./_1/)
+*   [1.3. JavaScript vs Java (beda ya!)](./_1/)
+*   [1.4. ECMAScript](./_1/)
+*   [1.5. Tools yang perlu disiapin](./_1/)
+*   [1.6. Selanjutnya belajar apa?](./_1/)
 
 ## Struktur Bahasa & Tipe Data
 
-### Baca Juga: [Struktur Bahasa & Tipe Data](./#2/README.md)
+### Baca Juga: [Struktur Bahasa & Tipe Data](./_2/README.md)
 
-*   [Sintaks dasar & cara kasih komentar](./#2/)
-*   [Cara deklarasi variabel](./#2/)
-*   [Lingkup variabel (scope)](./#2/)
-*   [Hoisting (fenomena "diangkat")](./#2/)
-*   [Struktur & tipe data](./#2/)
-*   [Literal](./#2/)
+*   [Sintaks dasar & cara kasih komentar](./_2/)
+*   [Cara deklarasi variabel](./_2/)
+*   [Lingkup variabel (scope)](./_2/)
+*   [Hoisting (fenomena "diangkat")](./_2/)
+*   [Struktur & tipe data](./_2/)
+*   [Literal](./_2/)
 
 ## Kontrol Alur & Penanganan Error
 
-### Baca Juga: [Kontrol Alur & Penanganan Error](./#3/)
+### Baca Juga: [Kontrol Alur & Penanganan Error](./_3/)
 
-*   [if...else](./#3/)
-*   [switch](./#3/)
-*   [try/catch/throw](./#3/)
-*   [Tipe-tipe error object](./#3/)
+*   [if...else](./_3/)
+*   [switch](./_3/)
+*   [try/catch/throw](./_3/)
+*   [Tipe-tipe error object](./_3/)
 
 ## Perulangan
 
-### Baca Juga: [Perulangan](./#4/)
+### Baca Juga: [Perulangan](./_4/)
 
-*   [for loop](./#4/)
-*   [while loop](./#4/)
-*   [do...while loop](./#4/)
-*   [continue (lanjut paksa)](./#4/)
-*   [break (berhenti paksa)](./#4/)
-*   [for...in loop](./#4/)
-*   [for...of loop](./#4/)
+*   [for loop](./_4/)
+*   [while loop](./_4/)
+*   [do...while loop](./_4/)
+*   [continue (lanjut paksa)](./_4/)
+*   [break (berhenti paksa)](./_4/)
+*   [for...in loop](./_4/)
+*   [for...of loop](./_4/)
 
 ## Fungsi
 
-### Baca Juga: [Fungsi](./#5/)
+### Baca Juga: [Fungsi](./_5/)
 
-*   [Cara bikin fungsi](./#5/)
-*   [Cara panggil fungsi](./#5/)
-*   [Scope & closure](./#5/)
-*   [Argument & parameter](./#5/)
-*   [Arrow function](./#5/)
+*   [Cara bikin fungsi](./_5/)
+*   [Cara panggil fungsi](./_5/)
+*   [Scope & closure](./_5/)
+*   [Argument & parameter](./_5/)
+*   [Arrow function](./_5/)
 
 ## Ekspresi & Operator
 
-### Baca Juga: [Ekspresi & Operator](./#6/)
+### Baca Juga: [Ekspresi & Operator](./_6/)
 
-*   [Assignment & perbandingan](./#6/)
-*   [Operator aritmatika](./#6/)
-*   [Operator bitwise & logical](./#6/)
-*   [Operator ternary](./#6/)
+*   [Assignment & perbandingan](./_6/)
+*   [Operator aritmatika](./_6/)
+*   [Operator bitwise & logical](./_6/)
+*   [Operator ternary](./_6/)
 
 ## Numbers & Strings
 
-### Baca Juga: [Numbers & Strings](./#7/)
+### Baca Juga: [Numbers & Strings](./_7/)
 
-*   [Numbers](./#7/)
-*   [Number object](./#7/)
-*   [Math object](./#7/)
-*   [Strings](./#7/)
-*   [String object](./#7/)
-*   [Template literals](./#7/)
+*   [Numbers](./_7/)
+*   [Number object](./_7/)
+*   [Math object](./_7/)
+*   [Strings](./_7/)
+*   [String object](./_7/)
+*   [Template literals](./_7/)
 
 ## Date & Time
 
-### Baca Juga: [Date & Time](./#8/)
+### Baca Juga: [Date & Time](./_8/)
 
-*   [Date object](./#8/)
+*   [Date object](./_8/)
 
 ## Regular Expressions
 
-### Baca Juga: [Regular Expressions](./#9/)
+### Baca Juga: [Regular Expressions](./_9/)
 
-*   [Cara bikin regex](./#9/)
-*   [Pola regex](./#9/)
-*   [Assertions](./#9/)
-*   [Character classes](./#9/)
-*   [Groups & backreferences](./#9/)
-*   [Quantifiers](./#9/)
+*   [Cara bikin regex](./_9/)
+*   [Pola regex](./_9/)
+*   [Assertions](./_9/)
+*   [Character classes](./_9/)
+*   [Groups & backreferences](./_9/)
+*   [Quantifiers](./_9/)
 
 ## Indexed Collections
 
-### Baca Juga: [Indexed Collections](./#10/)
+### Baca Juga: [Indexed Collections](./_10/)
 
-*   [Array & typed arrays](./#10/)
+*   [Array & typed arrays](./_10/)
 
 ## Keyed Collections
 
-### Baca Juga: [Keyed Collections](./#11/)
+### Baca Juga: [Keyed Collections](./_11/)
 
-*   [Map](./#11/)
-*   [WeakMap](./#11/)
-*   [Set](./#11/)
-*   [WeakSet](./#11/)
+*   [Map](./_11/)
+*   [WeakMap](./_11/)
+*   [Set](./_11/)
+*   [WeakSet](./_11/)
 
 ## Bekerja dengan Object
 
-### Baca Juga: [Bekerja dengan Object](./#12/)
+### Baca Juga: [Bekerja dengan Object](./_12/)
 
-*   [Object & properti](./#12/)
-*   [Cara bikin object](./#12/)
-*   [Definisi method](./#12/)
-*   [Getter & setter](./#12/)
+*   [Object & properti](./_12/)
+*   [Cara bikin object](./_12/)
+*   [Definisi method](./_12/)
+*   [Getter & setter](./_12/)
 
 ## Menggunakan Class
 
-### Baca Juga: [Menggunakan Class](./#13/)
+### Baca Juga: [Menggunakan Class](./_13/)
 
-*   [Deklarasi class](./#13/)
-*   [Fitur-fitur class](./#13/)
-*   [Extends & inheritance](./#13/)
-*   [Kenapa pake class?](./#13/)
+*   [Deklarasi class](./_13/)
+*   [Fitur-fitur class](./_13/)
+*   [Extends & inheritance](./_13/)
+*   [Kenapa pake class?](./_13/)
 
 ## Promise
 
-### Baca Juga: [Promise](./#14/)
+### Baca Juga: [Promise](./_14/)
 
-*   [Jaminan execution](./#14/)
-*   [Chaining](./#14/)
-*   [Error handling](./#14/)
-*   [Composition](./#14/)
-*   [Timing](./#14/)
+*   [Jaminan execution](./_14/)
+*   [Chaining](./_14/)
+*   [Error handling](./_14/)
+*   [Composition](./_14/)
+*   [Timing](./_14/)
 
 ## Typed Arrays
 
-### Baca Juga: [Typed Arrays](./#15/)
+### Baca Juga: [Typed Arrays](./_15/)
 
 ## Iterators & Generators
 
-### Baca Juga: [Iterators & Generators](./#16/)
+### Baca Juga: [Iterators & Generators](./_16/)
 
-*   [Iterators](./#16/)
-*   [Iterables](./#16/)
-*   [Generators](./#16/)
+*   [Iterators](./_16/)
+*   [Iterables](./_16/)
+*   [Generators](./_16/)
 
 ## Internationalization
 
-### Baca Juga: [Internationalization](./#17/)
+### Baca Juga: [Internationalization](./_17/)
 
-*   [Format tanggal & waktu](./#17/)
-*   [Format angka](./#17/)
-*   [Collation](./#17/)
+*   [Format tanggal & waktu](./_17/)
+*   [Format angka](./_17/)
+*   [Collation](./_17/)
 
 ## JavaScript Modules
 
-### Baca Juga: [JavaScript Modules](./#18/)
+### Baca Juga: [JavaScript Modules](./_18/)
 
-*   [Exporting](./#18/)
-*   [Importing](./#18/)
-*   [Default exports](./#18/)
-*   [Renaming features](./#18/)
-*   [Aggregating modules](./#18/)
-*   [Dynamic module loading](./#18/)
+*   [Exporting](./_18/)
+*   [Importing](./_18/)
+*   [Default exports](./_18/)
+*   [Renaming features](./_18/)
+*   [Aggregating modules](./_18/)
+*   [Dynamic module loading](./_18/)
 
 ## Topik Lanjutan
 
-### Baca Juga: [Topik Lanjutan](./#19/)
+### Baca Juga: [Topik Lanjutan](./_19/)
 
 > [!NOTE]
 > Bagian ini buat kalian yang udah ngerti fundamental dan mau nyelam lebih dalam
 
-*   [Gambaran lengkap bahasa](./#19/)
-*   [Struktur data](./#19/)
-*   [Enumerability & ownership properti](./#19/)
-*   [Inheritance & prototype chain](./#19/)
-*   [Perbandingan & equality](./#19/)
-*   [Closures](./#19/)
-*   [Meta programming](./#19/)
-*   [Memory management](./#19/)
+*   [Gambaran lengkap bahasa](./_19/)
+*   [Struktur data](./_19/)
+*   [Enumerability & ownership properti](./_19/)
+*   [Inheritance & prototype chain](./_19/)
+*   [Perbandingan & equality](./_19/)
+*   [Closures](./_19/)
+*   [Meta programming](./_19/)
+*   [Memory management](./_19/)
